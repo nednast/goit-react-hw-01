@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+.wrapper {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.itemWrapper {
+  padding: 20px;
+  width: 130px;
+  border: 2px black solid;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.itemImg {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 20px;
+}
+
+.itemName {
+  font-size: 30px;
+  font-weight: 100;
+}
+.online {
+  color: green;
+}
+
+.offline {
+  color: red;
+}
